@@ -24,8 +24,8 @@ Gem::Specification.new do |s|
   s.specification_version = 3
   s.licenses = ["MIT"]
 
-  s.add_dependency "activesupport", ">= 3.2.0"
-  s.add_dependency "activemodel", ">= 3.2.0"
+  s.add_dependency "activesupport", ">= 4.2.0"
+  s.add_dependency "activemodel", ">= 4.2.0"
   s.add_dependency "json", ">= 1.7"
   s.add_dependency "mime-types", ">= 1.16"
   if RUBY_ENGINE == 'jruby'
@@ -33,7 +33,7 @@ Gem::Specification.new do |s|
   else
     s.add_development_dependency "pg"
   end
-  s.add_development_dependency "rails", ">= 3.2.0"
+  s.add_development_dependency "rails", ">= 4.2.0"
   s.add_development_dependency "cucumber", "~> 1.3.2"
   s.add_development_dependency "rspec", "~> 2.14.1"
   s.add_development_dependency "sham_rack"
